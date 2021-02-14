@@ -175,9 +175,18 @@ nav div p {
 
 #intro .wrapper {
   position: relative;
-  width: 100%;
   max-width: 1200px;
   top: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -186,26 +195,18 @@ nav div p {
   text-align: right;
 }
 
-#intro .wrapper p:hover {
-  color: #f7f8f3;
-}
-
 #intro .wrapper p:nth-child(1) {
   font-size: 48px;
   font-family: "Oswald";
-  color: rgba(247, 248, 243, 0.85);
+  color: rgba(247, 248, 243, 0.8);
   text-transform: uppercase;
   letter-spacing: 5px;
-}
-
-#intro .wrapper p:nth-child(1):hover {
-  color: #f7f8f3;
 }
 
 #intro .wrapper p:nth-child(2) {
   font-size: 48px;
   font-family: "Oswald";
-  color: rgba(247, 248, 243, 0.85);
+  color: rgba(247, 248, 243, 0.8);
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -213,7 +214,7 @@ nav div p {
 #intro .wrapper p:nth-child(3) {
   font-size: 22px;
   font-family: "Oswald";
-  color: rgba(247, 248, 243, 0.5);
+  color: rgba(247, 248, 243, 0.4);
   letter-spacing: 3px;
   margin: 10px 0;
 }
@@ -222,20 +223,37 @@ nav div p {
   margin-top: 50px;
   font-size: 20px;
   height: 70px;
-  line-height: 70px;
-  border-top: 1px solid rgba(247, 248, 243, 0.5);
-  border-bottom: 1px solid rgba(247, 248, 243, 0.5);
+  line-height: 66px;
+  padding: 0 20px;
+  width: 200px;
+  border: 2px solid rgba(247, 248, 243, 0.4);
   font-family: "Oswald";
-  color: rgba(247, 248, 243, 0.85);
+  color: rgba(247, 248, 243, 0.8);
   text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+}
+
+#intro .wrapper p:nth-child(4) l {
+  position: relative;
+  left: 10%;
+}
+
+#intro .wrapper p:nth-child(4):hover {
+  color: white;
 }
 
 #intro .wrapper p:nth-child(5) {
   margin-top: 20px;
   font-size: 18px;
   font-family: "Oswald";
-  color: rgba(247, 248, 243, 0.5);
+  color: rgba(247, 248, 243, 0.4);
   letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#intro .wrapper p:nth-child(5):hover {
+  color: white;
 }
 
 /*@import "we_are";
