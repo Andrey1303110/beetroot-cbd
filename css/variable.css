@@ -118,12 +118,86 @@ nav div p {
   padding-right: 375px;
 }
 
+#intro #for_arrow {
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  width: 100%;
+}
+
+#intro #for_arrow:hover #arrow {
+  opacity: .45;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+#intro #for_arrow #arrow {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  opacity: 0;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  width: 40px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-animation: arrow 3s ease-in-out infinite;
+          animation: arrow 3s ease-in-out infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  cursor: pointer;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    top: 50%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 70%;
+  }
+  60% {
+    top: 60%;
+  }
+  80% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+@keyframes arrow {
+  0% {
+    top: 50%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 70%;
+  }
+  60% {
+    top: 60%;
+  }
+  80% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
 #intro #rotate-text {
   position: absolute;
   text-transform: uppercase;
   font-size: 26px;
   font-family: "Oswald";
-  color: white;
+  color: #f7f8f3;
   -webkit-transform: rotate(-90deg) translate(50%);
           transform: rotate(-90deg) translate(50%);
   bottom: 10%;
