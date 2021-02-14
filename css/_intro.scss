@@ -1,0 +1,85 @@
+#intro {
+    height: 100vh;
+    width: 100vw;
+    max-height: 1080px;
+    min-height: 240px;
+    background-image: url(../images/intro-bg.png);
+    background-repeat: round;
+    background-size: cover;
+    padding-right: 375px;
+    #rotate-text {
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        transform: rotate(-90deg) translate(50%);
+        bottom: 10%;
+        animation: text 20s ease-in-out infinite;
+        @keyframes text {
+            0% { bottom: 10%; }
+            95% { bottom: 10%; }
+            96% { bottom: 0%; }
+            97% { bottom: 5%; }  
+            98% { bottom: 0%; }
+            100% { bottom: 10%; }
+
+        }
+    }
+    .wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 1200px;
+        top: 50%;
+        transform: translateY(-50%);
+        p {
+            text-align: right;
+            &:hover {
+                color: rgb(247, 248, 243);
+            }
+            &:nth-child(1) {
+                font-size: 48px;
+                font-family: "Oswald";
+                color: rgba(247, 248, 243, 0.85);
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                &:hover {
+                    color: rgb(247, 248, 243);
+                }
+            }
+            &:nth-child(2) {
+                font-size: 48px;
+                font-family: "Oswald";
+                color: rgba(247, 248, 243, 0.85);
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+            &:nth-child(3) {
+                font-size: 22px;
+                font-family: "Oswald";
+                color: rgba(247, 248, 243, 0.5);
+                letter-spacing: 3px;
+                margin: 10px 0;
+            }
+            &:nth-child(4) {
+                margin-top: 50px;
+                font-size: 20px;
+                height: 70px;
+                line-height: 70px;
+                border-top: 1px solid rgba(247, 248, 243, 0.5);
+                border-bottom: 1px solid rgba(247, 248, 243, 0.5);
+                font-family: "Oswald";
+                color: rgba(247, 248, 243, 0.85);
+                text-transform: uppercase;
+            }
+            &:nth-child(5) {
+                margin-top: 20px;
+                font-size: 18px;
+                font-family: "Oswald";
+                color: rgba(247, 248, 243, 0.5);
+                letter-spacing: 2px;
+            }
+        }
+    }
+      
+}

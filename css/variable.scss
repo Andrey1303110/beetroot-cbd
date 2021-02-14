@@ -10,6 +10,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    line-height: 1.5;
+    font-family: "Oswald";
 }
 
 body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
@@ -20,17 +22,13 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     display: none;
 }
 
-:root {
-    --min-height: 100px;
-  }
-
-* {
-  line-height: 1.4;
+body {
+  background-color: #F7F8F3;
 }
 
 @import "nav";
-/*@import "intro";
-@import "we_are";
+@import "intro";
+/*@import "we_are";
 @import "products";
 @import "question";
 @import "photo-slider";

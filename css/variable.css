@@ -10,6 +10,8 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  line-height: 1.5;
+  font-family: "Oswald";
 }
 
 body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
@@ -20,12 +22,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   display: none;
 }
 
-:root {
-  --min-height: 100px;
-}
-
-* {
-  line-height: 1.4;
+body {
+  background-color: #F7F8F3;
 }
 
 nav {
@@ -109,8 +107,138 @@ nav div p {
   color: white;
 }
 
-/*@import "intro";
-@import "we_are";
+#intro {
+  height: 100vh;
+  width: 100vw;
+  max-height: 1080px;
+  min-height: 240px;
+  background-image: url(../images/intro-bg.png);
+  background-repeat: round;
+  background-size: cover;
+  padding-right: 375px;
+}
+
+#intro #rotate-text {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: "Oswald";
+  color: white;
+  -webkit-transform: rotate(-90deg) translate(50%);
+          transform: rotate(-90deg) translate(50%);
+  bottom: 10%;
+  -webkit-animation: text 20s ease-in-out infinite;
+          animation: text 20s ease-in-out infinite;
+}
+
+@-webkit-keyframes text {
+  0% {
+    bottom: 10%;
+  }
+  95% {
+    bottom: 10%;
+  }
+  96% {
+    bottom: 0%;
+  }
+  97% {
+    bottom: 5%;
+  }
+  98% {
+    bottom: 0%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes text {
+  0% {
+    bottom: 10%;
+  }
+  95% {
+    bottom: 10%;
+  }
+  96% {
+    bottom: 0%;
+  }
+  97% {
+    bottom: 5%;
+  }
+  98% {
+    bottom: 0%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+#intro .wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#intro .wrapper p {
+  text-align: right;
+}
+
+#intro .wrapper p:hover {
+  color: #f7f8f3;
+}
+
+#intro .wrapper p:nth-child(1) {
+  font-size: 48px;
+  font-family: "Oswald";
+  color: rgba(247, 248, 243, 0.85);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#intro .wrapper p:nth-child(1):hover {
+  color: #f7f8f3;
+}
+
+#intro .wrapper p:nth-child(2) {
+  font-size: 48px;
+  font-family: "Oswald";
+  color: rgba(247, 248, 243, 0.85);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#intro .wrapper p:nth-child(3) {
+  font-size: 22px;
+  font-family: "Oswald";
+  color: rgba(247, 248, 243, 0.5);
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+#intro .wrapper p:nth-child(4) {
+  margin-top: 50px;
+  font-size: 20px;
+  height: 70px;
+  line-height: 70px;
+  border-top: 1px solid rgba(247, 248, 243, 0.5);
+  border-bottom: 1px solid rgba(247, 248, 243, 0.5);
+  font-family: "Oswald";
+  color: rgba(247, 248, 243, 0.85);
+  text-transform: uppercase;
+}
+
+#intro .wrapper p:nth-child(5) {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Oswald";
+  color: rgba(247, 248, 243, 0.5);
+  letter-spacing: 2px;
+}
+
+/*@import "we_are";
 @import "products";
 @import "question";
 @import "photo-slider";
