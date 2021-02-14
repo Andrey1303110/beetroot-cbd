@@ -42,7 +42,6 @@
         position: absolute;
         text-transform: uppercase;
         font-size: 26px;
-        font-family: "Oswald";
         color: rgb(247, 248, 243);
         transform: rotate(-90deg) translate(50%);
         bottom: 10%;
@@ -68,21 +67,18 @@
             text-align: right;
             &:nth-child(1) {
                 font-size: 48px;
-                font-family: "Oswald";
                 color: rgba(247, 248, 243, 0.8);
                 text-transform: uppercase;
                 letter-spacing: 5px;
             }
             &:nth-child(2) {
                 font-size: 48px;
-                font-family: "Oswald";
                 color: rgba(247, 248, 243, 0.8);
                 text-transform: uppercase;
                 letter-spacing: 5px;
             }
             &:nth-child(3) {
                 font-size: 22px;
-                font-family: "Oswald";
                 color: rgba(247, 248, 243, 0.4);
                 letter-spacing: 3px;
                 margin: 10px 0;
@@ -95,7 +91,6 @@
                 padding: 0 20px;
                 width: 200px;
                 border: 2px solid rgba(247, 248, 243, 0.4);
-                font-family: "Oswald";
                 color: rgba(247, 248, 243, 0.8);
                 text-transform: uppercase;
                 text-align: left;
@@ -111,7 +106,6 @@
             &:nth-child(5) {
                 margin-top: 20px;
                 font-size: 18px;
-                font-family: "Oswald";
                 color: rgba(247, 248, 243, 0.4);
                 letter-spacing: 2px;
                 cursor: pointer;

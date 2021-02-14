@@ -24,6 +24,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 body {
   background-color: #F7F8F3;
+  font-family: "Oswald";
 }
 
 nav {
@@ -196,7 +197,6 @@ nav div p {
   position: absolute;
   text-transform: uppercase;
   font-size: 26px;
-  font-family: "Oswald";
   color: #f7f8f3;
   -webkit-transform: rotate(-90deg) translate(50%);
           transform: rotate(-90deg) translate(50%);
@@ -271,7 +271,6 @@ nav div p {
 
 #intro .wrapper p:nth-child(1) {
   font-size: 48px;
-  font-family: "Oswald";
   color: rgba(247, 248, 243, 0.8);
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -279,7 +278,6 @@ nav div p {
 
 #intro .wrapper p:nth-child(2) {
   font-size: 48px;
-  font-family: "Oswald";
   color: rgba(247, 248, 243, 0.8);
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -287,7 +285,6 @@ nav div p {
 
 #intro .wrapper p:nth-child(3) {
   font-size: 22px;
-  font-family: "Oswald";
   color: rgba(247, 248, 243, 0.4);
   letter-spacing: 3px;
   margin: 10px 0;
@@ -301,7 +298,6 @@ nav div p {
   padding: 0 20px;
   width: 200px;
   border: 2px solid rgba(247, 248, 243, 0.4);
-  font-family: "Oswald";
   color: rgba(247, 248, 243, 0.8);
   text-transform: uppercase;
   text-align: left;
@@ -320,7 +316,6 @@ nav div p {
 #intro .wrapper p:nth-child(5) {
   margin-top: 20px;
   font-size: 18px;
-  font-family: "Oswald";
   color: rgba(247, 248, 243, 0.4);
   letter-spacing: 2px;
   cursor: pointer;
@@ -330,8 +325,39 @@ nav div p {
   color: white;
 }
 
-/*@import "we_are";
-@import "products";
+#we_are {
+  width: 100%;
+  padding: 100px 0;
+}
+
+#we_are .wrapper {
+  width: 100%;
+  padding: 0 375px;
+}
+
+#we_are .wrapper .up_div {
+  width: 620px;
+  height: 180px;
+  padding: 30px 55px;
+  background-image: url(../images/border-logos.png);
+  background-repeat: round;
+  margin: 0 auto;
+}
+
+#we_are .wrapper .up_div p {
+  text-transform: uppercase;
+  text-align: center;
+  color: #1c1c1c;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+#we_are .wrapper .up_div img {
+  width: 510px;
+  margin: 0 auto;
+}
+
+/*@import "products";
 @import "question";
 @import "photo-slider";
 @import "footer";*/

@@ -1,0 +1,27 @@
+#we_are {
+    width: 100%;
+    padding: 100px 0;
+    .wrapper {
+        width: 100%;
+        padding: 0 375px;
+        .up_div {
+            width: 620px;
+            height: 180px;
+            padding: 30px 55px;
+            background-image: url(../images/border-logos.png);
+            background-repeat: round;
+            margin: 0 auto;
+            p {
+                text-transform: uppercase;
+                text-align: center;
+                color: rgb(28, 28, 28);
+                font-size: 30px;
+                letter-spacing: 5px;
+            }
+            img {
+                width: 510px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
