@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+
 *,
 *::before,
 *::after {
@@ -25,3 +27,11 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 * {
   line-height: 1.4;
 }
+
+@import "nav";
+/*@import "intro";
+@import "we_are";
+@import "products";
+@import "question";
+@import "photo-slider";
+@import "footer";*/
