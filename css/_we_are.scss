@@ -1,6 +1,7 @@
 #we_are {
     width: 100%;
     padding: 100px 0;
+    margin-bottom: 10%;
     .wrapper {
         width: 100%;
         padding: 0 375px;
@@ -21,6 +22,79 @@
             img {
                 width: 510px;
                 margin: 0 auto;
+            }
+        }
+        .down_div {
+            padding: 0 10%;
+            #benefits_text {
+                flex-direction: row-reverse;
+                .down_right_div {
+                    transform: translateX(-20%);
+                }
+            }
+            .title_div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                margin-top: 10%;
+                .text_title {
+                    font-size: 30px;
+                    font-family: "Oswald";
+                    color: rgba(28, 28, 27, 0.8);
+                    text-transform: uppercase;
+                    line-height: 2.5;
+                    text-align: center;
+                    border-bottom: 4px solid #cbda8fa2;
+                    width: 100%;
+                    text-align: left;
+                    &:hover {
+                        border-bottom: 4px solid #454e2275;
+                        color: rgba(28, 28, 27, 0.85);
+                    }
+                    &.isActive {
+                        border-bottom: 4px solid #454e22;
+                        color: rgb(28, 28, 27);
+                    }
+                }
+            }
+            .down_div_text_block {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 10%;
+                .down_left_div {
+                    display: flex;
+                    flex-direction: column;
+                    .down_div_title {
+                        font-size: 24px;
+                        font-family: "Oswald";
+                        color: rgb(0, 0, 0);
+                        text-transform: uppercase;
+                        text-align: left;
+                        letter-spacing: 4px;
+                        width: 100%;
+                        max-width: 280px;
+                        margin-top: 5%;
+                    }
+                    .down_div_text {
+                        font-size: 18px;
+                        font-family: "Oswald";
+                        color: rgb(110, 119, 74);
+                        text-align: left;
+                        margin-top: 15%;
+                        line-height: 2;
+                    }
+                }
+                .down_right_div {
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    transform: translateX(20%);
+                    :nth-child(2) {
+                        margin-top: 30px;
+                    }
+                }
             }
         }
     }

@@ -50,6 +50,9 @@ nav {
             font-family: "Oswald";
             text-transform: uppercase;
             color: rgb(255, 255, 255);
+            position: absolute;
+            right: 50%;
+            transform: translateX(50%);
           }
     }
       
