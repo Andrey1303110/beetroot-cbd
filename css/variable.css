@@ -411,8 +411,8 @@ nav div p {
   width: 100%;
   text-align: left;
   cursor: pointer;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 
 #we_are .wrapper .down_div .title_div .text_title:hover {

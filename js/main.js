@@ -11,7 +11,7 @@ $(document).ready(function(){
                 $("#" + this.id).addClass("isActive"); 
                 $(".down_div_text_block").removeClass("isActive"); 
                 $("#" + this.id + "_text").addClass("isActive");
-            }, 500); 
+            }, 250); 
             setTimeout(() => {$(".down_div_text_block").css("opacity", "1")}, 500);
         }
     });
