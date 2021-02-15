@@ -26,6 +26,7 @@
         }
         .down_div {
             padding: 0 10%;
+            min-height: 800px;
             #benefits_text {
                 flex-direction: row-reverse;
                 .down_right_div {
@@ -41,15 +42,17 @@
                 .text_title {
                     font-size: 30px;
                     font-family: "Oswald";
-                    color: rgba(28, 28, 27, 0.8);
+                    color: rgba(28, 28, 27, 0.6);
                     text-transform: uppercase;
                     line-height: 2.5;
                     text-align: center;
                     border-bottom: 4px solid #cbda8fa2;
                     width: 100%;
                     text-align: left;
+                    cursor: pointer;
+                    transition: all .5s ease-in-out;
                     &:hover {
-                        border-bottom: 4px solid #454e2275;
+                        border-bottom: 4px solid #454e227c;
                         color: rgba(28, 28, 27, 0.85);
                     }
                     &.isActive {
@@ -63,6 +66,13 @@
                 flex-direction: row;
                 justify-content: space-between;
                 margin-top: 10%;
+                display: none;
+                transition: .5s all linear;
+                opacity: 0;
+                &.isActive {
+                    display: flex;
+                    opacity: 1;
+                }
                 .down_left_div {
                     display: flex;
                     flex-direction: column;

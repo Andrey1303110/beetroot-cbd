@@ -370,6 +370,7 @@ nav div p {
 
 #we_are .wrapper .down_div {
   padding: 0 10%;
+  min-height: 800px;
 }
 
 #we_are .wrapper .down_div #benefits_text {
@@ -402,17 +403,20 @@ nav div p {
 #we_are .wrapper .down_div .title_div .text_title {
   font-size: 30px;
   font-family: "Oswald";
-  color: rgba(28, 28, 27, 0.8);
+  color: rgba(28, 28, 27, 0.6);
   text-transform: uppercase;
   line-height: 2.5;
   text-align: center;
   border-bottom: 4px solid #cbda8fa2;
   width: 100%;
   text-align: left;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 #we_are .wrapper .down_div .title_div .text_title:hover {
-  border-bottom: 4px solid #454e2275;
+  border-bottom: 4px solid #454e227c;
   color: rgba(28, 28, 27, 0.85);
 }
 
@@ -433,6 +437,17 @@ nav div p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10%;
+  display: none;
+  -webkit-transition: .5s all linear;
+  transition: .5s all linear;
+  opacity: 0;
+}
+
+#we_are .wrapper .down_div .down_div_text_block.isActive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
 }
 
 #we_are .wrapper .down_div .down_div_text_block .down_left_div {
