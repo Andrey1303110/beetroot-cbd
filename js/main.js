@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#what_is_cbd_text").addClass("isActive");
+    $("#what_is_cbd").addClass("isActive");
     $(".text_title").click(function(){
         if($("#" + this.id).hasClass("isActive")) {
             false;
@@ -16,3 +17,9 @@ $(document).ready(function(){
         }
     });
 });
+
+/*$(document).ready(function(){
+    $('.product-slider').slick({
+      setting-name: setting-value
+    });
+});*/

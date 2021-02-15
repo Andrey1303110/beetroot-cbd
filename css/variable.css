@@ -33,6 +33,7 @@ nav {
   background-size: contain;
   height: 150px;
   position: fixed;
+  z-index: 10;
 }
 
 nav div {
@@ -269,6 +270,34 @@ nav div p {
           transform: translateY(-50%);
 }
 
+#intro .wrapper button {
+  margin-top: 50px;
+  font-size: 20px;
+  height: 70px;
+  line-height: 66px;
+  padding: 0 20px;
+  width: 200px;
+  border: 2px solid rgba(247, 248, 243, 0.4);
+  background-color: rgba(247, 248, 243, 0);
+  color: rgba(247, 248, 243, 0.8);
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#intro .wrapper button l {
+  position: relative;
+  left: 10%;
+}
+
+#intro .wrapper button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 2px solid rgba(255, 255, 255, 0.308);
+}
+
 #intro .wrapper p {
   text-align: right;
 }
@@ -292,33 +321,6 @@ nav div p {
   color: rgba(247, 248, 243, 0.4);
   letter-spacing: 3px;
   margin: 10px 0;
-}
-
-#intro .wrapper p:nth-child(4) {
-  margin-top: 50px;
-  font-size: 20px;
-  height: 70px;
-  line-height: 66px;
-  padding: 0 20px;
-  width: 200px;
-  border: 2px solid rgba(247, 248, 243, 0.4);
-  color: rgba(247, 248, 243, 0.8);
-  text-transform: uppercase;
-  text-align: left;
-  cursor: pointer;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-}
-
-#intro .wrapper p:nth-child(4) l {
-  position: relative;
-  left: 10%;
-}
-
-#intro .wrapper p:nth-child(4):hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.308);
-  border: 2px solid rgba(255, 255, 255, 0.308);
 }
 
 #intro .wrapper p:nth-child(5) {
@@ -498,8 +500,113 @@ nav div p {
   margin-top: 30px;
 }
 
-/*@import "products";
-@import "question";
+#products .title_products {
+  font-size: 30px;
+  font-family: "Oswald";
+  color: #1c1c1b;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: center;
+}
+
+#products .product-slider .slide {
+  width: 610px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#products .product-slider .slide:nth-child(1) .head_slide {
+  background-image: url(../images/product_1.png);
+}
+
+#products .product-slider .slide:nth-child(2) .head_slide {
+  background-image: url(../images/product_2.png);
+}
+
+#products .product-slider .slide:nth-child(3) .head_slide {
+  background-image: url(../images/product_3.png);
+}
+
+#products .product-slider .slide .head_slide {
+  width: 100%;
+  height: 100%;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding-top: 5%;
+}
+
+#products .product-slider .slide .head_slide .stars {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  height: 18px;
+  margin-bottom: 2%;
+}
+
+#products .product-slider .slide .head_slide .slide_product_title {
+  font-size: 18px;
+  font-family: "Oswald";
+  font-weight: bold;
+  color: #1c1c1b;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#products .product-slider .slide .footer_slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+  position: relative;
+}
+
+#products .product-slider .slide .footer_slide .price {
+  font-size: 18px;
+  line-height: 70px;
+  font-family: "Oswald";
+  font-weight: bold;
+  color: #1c1c1b;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+#products .product-slider .slide .footer_slide button {
+  font-size: 20px;
+  font-family: "Oswald";
+  color: white;
+  text-transform: uppercase;
+  background-color: #6E744A;
+  width: 35%;
+  height: 70px;
+}
+
+#products .product-slider .slide .footer_slide button l {
+  letter-spacing: -2px;
+  margin-left: 30px;
+}
+
+/*@import "question";
 @import "photo-slider";
 @import "footer";*/
 /*# sourceMappingURL=variable.css.map */
