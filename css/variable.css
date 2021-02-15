@@ -302,6 +302,8 @@ nav div p {
   text-transform: uppercase;
   text-align: left;
   cursor: pointer;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 #intro .wrapper p:nth-child(4) l {
@@ -311,6 +313,8 @@ nav div p {
 
 #intro .wrapper p:nth-child(4):hover {
   color: white;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 2px solid rgba(255, 255, 255, 0.308);
 }
 
 #intro .wrapper p:nth-child(5) {
@@ -319,6 +323,8 @@ nav div p {
   color: rgba(247, 248, 243, 0.4);
   letter-spacing: 2px;
   cursor: pointer;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 #intro .wrapper p:nth-child(5):hover {

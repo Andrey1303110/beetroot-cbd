@@ -95,12 +95,15 @@
                 text-transform: uppercase;
                 text-align: left;
                 cursor: pointer;
+                transition: 1s ease-in-out;
                 l {
                     position: relative;
                     left: 10%;
                 }
                 &:hover {
                     color: rgb(255, 255, 255);
+                    background-color: rgba(255, 255, 255, 0.308);
+                    border: 2px solid rgba(255, 255, 255, 0.308);
                 }
             }
             &:nth-child(5) {
@@ -109,6 +112,7 @@
                 color: rgba(247, 248, 243, 0.4);
                 letter-spacing: 2px;
                 cursor: pointer;
+                transition: .3s ease-in-out;
                 &:hover {
                     color: rgb(255, 255, 255);
                 }
