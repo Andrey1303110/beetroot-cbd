@@ -691,6 +691,43 @@ nav div p {
   margin-left: 30px;
 }
 
+#question .wrapper {
+  width: 570px;
+  margin: 0 auto;
+}
+
+#question .wrapper .title_block {
+  font-size: 30px;
+  color: #1c1c1b;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: center;
+}
+
+#question .wrapper #question_block .question_block {
+  text-align: left;
+  border-top: 2px solid rgba(110, 119, 74, 0.5);
+}
+
+#question .wrapper #question_block .question_block#question_4 {
+  border-bottom: 2px solid rgba(110, 119, 74, 0.5);
+}
+
+#question .wrapper #question_block .question_block .question_click {
+  font-size: 18px;
+  color: #6e774a;
+  padding: 25px 0;
+  padding-left: 30px;
+  letter-spacing: 4px;
+}
+
+#question .wrapper #question_block .question_block .answer_block {
+  font-size: 18px;
+  color: black;
+  padding: 25px 0;
+  padding-left: 30px;
+}
+
 /*@import "photo-slider";
 @import "footer";*/
 /*# sourceMappingURL=variable.css.map */

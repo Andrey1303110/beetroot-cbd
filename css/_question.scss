@@ -1,3 +1,37 @@
 #question {
-    
+    .wrapper {
+        width: 570px;
+        margin: 0 auto;
+        .title_block{
+            font-size: 30px;
+            color: rgb(28, 28, 27);
+            text-transform: uppercase;
+            line-height: 2.5;
+            text-align: center;
+          }
+        #question_block {
+
+            .question_block {
+                text-align: left;
+                border-top: 2px solid rgba(110, 119, 74, .5);
+                &#question_4 {
+                    border-bottom: 2px solid rgba(110, 119, 74, .5); 
+                }
+                .question_click {
+                    font-size: 18px;
+                    color: rgb(110, 119, 74);
+                    padding: 25px 0;
+                    padding-left: 30px;
+                    letter-spacing: 4px;
+                }
+                .answer_block {
+                    font-size: 18px;
+                    color: rgb(0, 0, 0);
+                    padding: 25px 0;
+                    padding-left: 30px;
+                }
+            }
+        }
+          
+    }
 }
