@@ -507,11 +507,57 @@ nav div p {
   text-transform: uppercase;
   line-height: 2.5;
   text-align: center;
+  margin-bottom: 3%;
+}
+
+#products .product-slider #flavor_slide .head_slide {
+  background-image: url(../images/flavor.png);
+  background-size: 22%;
+}
+
+#products .product-slider #flavor_slide .head_slide:hover {
+  background-size: 28%;
+}
+
+#products .product-slider #muscle_slide .head_slide {
+  background-image: url(../images/muscle.png);
+  background-size: 35%;
+}
+
+#products .product-slider #muscle_slide .head_slide:hover {
+  background-size: 48%;
+}
+
+#products .product-slider #coffe_slide .head_slide {
+  background-image: url(../images/coffe.png);
+  background-size: 24%;
+}
+
+#products .product-slider #coffe_slide .head_slide:hover {
+  background-size: 33%;
+}
+
+#products .product-slider #oil_slide .head_slide {
+  background-image: url(../images/oil.png);
+  background-size: 25%;
+}
+
+#products .product-slider #oil_slide .head_slide:hover {
+  background-size: 45%;
+}
+
+#products .product-slider #tea_slide .head_slide {
+  background-image: url(../images/tea.png);
+  background-size: 77%;
+}
+
+#products .product-slider #tea_slide .head_slide:hover {
+  background-size: 105%;
 }
 
 #products .product-slider .slide {
-  width: 610px;
   height: 450px;
+  margin: 0 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -524,16 +570,8 @@ nav div p {
           justify-content: space-between;
 }
 
-#products .product-slider .slide:nth-child(1) .head_slide {
-  background-image: url(../images/product_1.png);
-}
-
-#products .product-slider .slide:nth-child(2) .head_slide {
-  background-image: url(../images/product_2.png);
-}
-
-#products .product-slider .slide:nth-child(3) .head_slide {
-  background-image: url(../images/product_3.png);
+#products .product-slider .slide:focus {
+  outline: none;
 }
 
 #products .product-slider .slide .head_slide {
@@ -543,6 +581,14 @@ nav div p {
   background-repeat: no-repeat;
   background-color: white;
   padding-top: 5%;
+  border: solid 1px #E8ECDA;
+  -webkit-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
+  cursor: help;
+}
+
+#products .product-slider .slide .head_slide.disable_bg {
+  background-image: none;
 }
 
 #products .product-slider .slide .head_slide .stars {
@@ -565,6 +611,14 @@ nav div p {
   letter-spacing: 2px;
 }
 
+#products .product-slider .slide .head_slide .question_text {
+  text-align: center;
+  padding: 10%;
+  font-size: 0px;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+
 #products .product-slider .slide .footer_slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -577,7 +631,9 @@ nav div p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-left: 30px;
+  padding-right: 2px;
   position: relative;
+  background-color: #F1F1F1;
 }
 
 #products .product-slider .slide .footer_slide .price {
@@ -599,10 +655,11 @@ nav div p {
   background-color: #6E744A;
   width: 35%;
   height: 70px;
+  cursor: pointer;
 }
 
 #products .product-slider .slide .footer_slide button l {
-  letter-spacing: -2px;
+  letter-spacing: -4px;
   margin-left: 30px;
 }
 

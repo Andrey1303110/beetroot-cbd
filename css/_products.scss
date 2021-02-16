@@ -6,29 +6,62 @@
         text-transform: uppercase;
         line-height: 2.5;
         text-align: center;
+        margin-bottom: 3%;
       }
     .product-slider {
-        
+        #flavor_slide {
+            .head_slide {
+                background-image: url(../images/flavor.png);
+                background-size: 22%;
+                &:hover {
+                    background-size: 28%;
+                }
+            }
+        }
+        #muscle_slide {
+            .head_slide {
+                background-image: url(../images/muscle.png);
+                background-size: 35%;
+                    &:hover {
+                        background-size: 48%;
+                }
+            }
+        }
+        #coffe_slide {
+            .head_slide {
+                background-image: url(../images/coffe.png);
+                background-size: 24%;
+                &:hover {
+                    background-size: 33%;
+                }
+            }
+        }
+        #oil_slide {
+            .head_slide {
+                background-image: url(../images/oil.png);
+                background-size: 25%;
+                &:hover {
+                    background-size: 45%;
+                }
+            }
+        }
+        #tea_slide {
+            .head_slide {
+                background-image: url(../images/tea.png);
+                background-size: 77%;
+                &:hover {
+                    background-size: 105%;
+                }
+            }
+        }
         .slide {
-            width: 610px;
             height: 450px;
+            margin: 0 1%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            &:nth-child(1) {
-                .head_slide {
-                    background-image: url(../images/product_1.png);
-                }
-            }
-            &:nth-child(2) {
-                .head_slide {
-                    background-image: url(../images/product_2.png);
-                }
-            }
-            &:nth-child(3) {
-                .head_slide {
-                    background-image: url(../images/product_3.png);
-                }
+            &:focus {
+                outline: none;
             }
             .head_slide {
                 width: 100%;
@@ -37,6 +70,12 @@
                 background-repeat: no-repeat;
                 background-color: white;
                 padding-top: 5%;
+                border: solid 1px #E8ECDA;
+                transition: all .35s ease-in-out;
+                &.disable_bg {
+                    background-image: none;
+                }
+                cursor: help;
                 .stars {
                     margin: 0 auto;
                     display: flex;
@@ -53,13 +92,21 @@
                     text-align: center;
                     letter-spacing: 2px;
                 }
+                .question_text {
+                    text-align: center;
+                    padding: 10%;
+                    font-size: 0px;
+                    transition: all 1.5s ease-in-out;
+                }
             }
             .footer_slide {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 padding-left: 30px;
+                padding-right: 2px;
                 position: relative;
+                background-color: #F1F1F1;
                 .price {
                     font-size: 18px;
                     line-height: 70px;
@@ -78,8 +125,9 @@
                     background-color: #6E744A;
                     width: 35%;
                     height: 70px;
+                    cursor: pointer;
                     l {
-                        letter-spacing: -2px;
+                        letter-spacing: -4px;
                         margin-left: 30px;
                     }
                 }

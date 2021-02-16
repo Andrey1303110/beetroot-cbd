@@ -18,8 +18,20 @@ $(document).ready(function(){
     });
 });
 
-/*$(document).ready(function(){
-    $('.product-slider').slick({
-      setting-name: setting-value
-    });
-});*/
+$(".head_slide").click(function(){
+    $(".question_text").css("font-size", "0%");
+    $(".question_text", this).css("font-size", "125%");
+    $("#" + this.id).css("background-image", "none");
+    console.log(this.id);
+    setTimeout(() => { 
+        $(".question_text", this).css("font-size", "0%");
+        setTimeout(() => { $("#" + this.id).css("background-image", `url(../images/${this.id}.png)`) }, 1500 )
+    }, 7500 )
+});
+
+$(".product-slider").slick({
+    arrows: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  });
