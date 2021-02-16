@@ -43,3 +43,5 @@ $(".product-slider").slick({
             nextArrow: '<button id="for_slider_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
 });
 
+
+

@@ -6,13 +6,13 @@
         width: 250px; 
         margin: 0 auto;
         font-size: 50px;
-        color: rgb(110, 119, 74);
         button {
             background-color: rgba(255, 255, 255, 0);
             border: none;
             width: 50%;
             font-size: 50px;
             line-height: 50px;
+            color: rgb(110, 119, 74);
             &:focus {
                 outline: none;
             }
