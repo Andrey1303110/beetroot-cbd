@@ -19,7 +19,6 @@ $(document).ready(function(){
 });
 
 $(".head_slide").click(function(){
-    $(".question_text").css("font-size", "0%");
     $(".question_text", this).css("font-size", "125%");
     $("#" + this.id).css("background-image", "none");
     console.log(this.id);
@@ -32,7 +31,12 @@ $(".head_slide").click(function(){
 $(".product-slider").slick({
     arrows: true,
     dots: true,
-    infinite: true,
+    infinity: true,
+    speed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 4500,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
   });
