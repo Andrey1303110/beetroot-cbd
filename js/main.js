@@ -25,12 +25,13 @@ $(".head_slide").click(function(){
     console.log(this.id);
     setTimeout(() => { 
         $(".question_text", this).css("font-size", "0%");
-        setTimeout(() => { $("#" + this.id).css("background-image", `url(./images/${this.id}.png)`) }, 1500 )
+        setTimeout(() => { $("#" + this.id).css("background-image", `url(./images/${this.id}.png)`) }, 1200 )
     }, 7500 )
 });
 
 $(".product-slider").slick({
     arrows: true,
+    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,

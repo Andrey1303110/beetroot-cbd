@@ -9,51 +9,6 @@
         margin-bottom: 3%;
       }
     .product-slider {
-        #flavor_slide {
-            .head_slide {
-                background-image: url(../images/flavor.png);
-                background-size: 22%;
-                &:hover {
-                    background-size: 28%;
-                }
-            }
-        }
-        #muscle_slide {
-            .head_slide {
-                background-image: url(../images/muscle.png);
-                background-size: 35%;
-                    &:hover {
-                        background-size: 48%;
-                }
-            }
-        }
-        #coffe_slide {
-            .head_slide {
-                background-image: url(../images/coffe.png);
-                background-size: 24%;
-                &:hover {
-                    background-size: 33%;
-                }
-            }
-        }
-        #oil_slide {
-            .head_slide {
-                background-image: url(../images/oil.png);
-                background-size: 25%;
-                &:hover {
-                    background-size: 45%;
-                }
-            }
-        }
-        #tea_slide {
-            .head_slide {
-                background-image: url(../images/tea.png);
-                background-size: 77%;
-                &:hover {
-                    background-size: 105%;
-                }
-            }
-        }
         .slide {
             height: 450px;
             margin: 0 1%;
@@ -62,6 +17,41 @@
             justify-content: space-between;
             &:focus {
                 outline: none;
+            }
+            #flavor {
+                background-image: url(../images/flavor.png);
+                background-size: 22%;
+                &:hover {
+                    background-size: 28%;
+                }
+            }
+            #muscle {
+                background-image: url(../images/muscle.png);
+                background-size: 35%;
+                    &:hover {
+                        background-size: 48%;
+                }
+            }
+            #coffe {
+                background-image: url(../images/coffe.png);
+                background-size: 24%;
+                &:hover {
+                    background-size: 33%;
+                }
+            }
+            #oil {
+                background-image: url(../images/oil.png);
+                background-size: 25%;
+                &:hover {
+                    background-size: 45%;
+                }
+            }
+            #tea {
+                background-image: url(../images/tea.png);
+                background-size: 77%;
+                &:hover {
+                    background-size: 105%;
+                }
             }
             .head_slide {
                 width: 100%;
