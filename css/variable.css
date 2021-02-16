@@ -530,7 +530,7 @@ nav div p {
 }
 
 #products .product-slider .slide #flavor {
-  background-image: url(../images/flavor.png);
+  background-image: url(../images/products/flavor.png);
   background-size: 22%;
 }
 
@@ -539,7 +539,7 @@ nav div p {
 }
 
 #products .product-slider .slide #muscle {
-  background-image: url(../images/muscle.png);
+  background-image: url(../images/products/muscle.png);
   background-size: 35%;
 }
 
@@ -548,7 +548,7 @@ nav div p {
 }
 
 #products .product-slider .slide #coffe {
-  background-image: url(../images/coffe.png);
+  background-image: url(../images/products/coffe.png);
   background-size: 24%;
 }
 
@@ -557,7 +557,7 @@ nav div p {
 }
 
 #products .product-slider .slide #oil {
-  background-image: url(../images/oil.png);
+  background-image: url(../images/products/oil.png);
   background-size: 25%;
 }
 
@@ -566,7 +566,7 @@ nav div p {
 }
 
 #products .product-slider .slide #tea {
-  background-image: url(../images/tea.png);
+  background-image: url(../images/products/tea.png);
   background-size: 77%;
 }
 

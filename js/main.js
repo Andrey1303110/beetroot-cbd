@@ -24,7 +24,7 @@ $(".head_slide").click(function(){
     console.log(this.id);
     setTimeout(() => { 
         $(".question_text", this).css("font-size", "0%");
-        setTimeout(() => { $("#" + this.id).css("background-image", `url(./images/${this.id}.png)`) }, 1200 )
+        setTimeout(() => { $("#" + this.id).css("background-image", `url(./images/products/${this.id}.png)`) }, 1200 )
     }, 7500 )
 });
 
