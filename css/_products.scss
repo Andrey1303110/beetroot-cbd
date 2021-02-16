@@ -1,4 +1,23 @@
 #products {
+    #for_slider {
+        display: flex;
+        text-align: center;
+        height: 100px;
+        width: 250px; 
+        margin: 0 auto;
+        font-size: 50px;
+        color: rgb(110, 119, 74);
+        button {
+            background-color: rgba(255, 255, 255, 0);
+            border: none;
+            width: 50%;
+            font-size: 50px;
+            line-height: 50px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
     .title_products {
         font-size: 30px;
         font-family: "Oswald";
@@ -9,6 +28,7 @@
         margin-bottom: 3%;
       }
     .product-slider {
+        margin-bottom: 2%;
         .slide {
             height: 450px;
             margin: 0 1%;

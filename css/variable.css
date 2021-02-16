@@ -500,6 +500,30 @@ nav div p {
   margin-top: 30px;
 }
 
+#products #for_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 50px;
+  color: #6e774a;
+}
+
+#products #for_slider button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 50%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#products #for_slider button:focus {
+  outline: none;
+}
+
 #products .title_products {
   font-size: 30px;
   font-family: "Oswald";
@@ -508,6 +532,10 @@ nav div p {
   line-height: 2.5;
   text-align: center;
   margin-bottom: 3%;
+}
+
+#products .product-slider {
+  margin-bottom: 2%;
 }
 
 #products .product-slider .slide {

@@ -30,7 +30,6 @@ $(".head_slide").click(function(){
 
 $(".product-slider").slick({
     arrows: true,
-    dots: true,
     infinity: true,
     speed: 2000,
     slidesToShow: 3,
@@ -38,5 +37,9 @@ $(".product-slider").slick({
     autoplay: true,
     autoplaySpeed: 4500,
     pauseOnHover: true,
-    pauseOnDotsHover: true,
-  });
+
+    appendArrows: $('#for_slider'),
+            prevArrow: '<button id="for_slider_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
+            nextArrow: '<button id="for_slider_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+});
+
