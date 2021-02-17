@@ -67,4 +67,16 @@ $(document).ready(function(){
     });
 });
 
+$(".slider_photos").slick({
+    arrows: true,
+    infinity: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+    appendArrows: $('#for_slider_photos'),
+            prevArrow: '<button id="for_slider_photo_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
+            nextArrow: '<button id="for_slider_photo_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+});
+
 

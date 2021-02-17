@@ -1,0 +1,41 @@
+#photo-slider {
+    width: 100vw;
+    height: 100vh;
+    max-height: 800px;
+    min-height: 720px;
+    position: relative;
+    #for_slider_photos {
+        display: flex;
+        text-align: center;
+        height: 100px;
+        width: 250px; 
+        margin: 0 auto;
+        font-size: 50px;
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 800px;
+        transform: translateX(-50%) translateY(-100px);
+        button {
+            background-color: rgba(255, 255, 255, 0);
+            border: none;
+            width: 50%;
+            font-size: 50px;
+            line-height: 50px;
+            color: rgba(250, 250, 250, 0.851);
+            border: solid 1px rgba(250, 250, 250, 0.851);;
+            transition: .4s all ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: rgb(255, 255, 255);
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .slider_photos {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -705,6 +705,10 @@ nav div p {
   margin-left: 30px;
 }
 
+#question {
+  margin-bottom: 10%;
+}
+
 #question .wrapper {
   width: 570px;
   margin: 0 auto;
@@ -768,6 +772,54 @@ nav div p {
   transition: 1s all ease-in-out;
 }
 
-/*@import "photo-slider";
-@import "footer";*/
+#photo-slider {
+  width: 100vw;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 720px;
+  position: relative;
+}
+
+#photo-slider #for_slider_photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 50px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 800px;
+  -webkit-transform: translateX(-50%) translateY(-100px);
+          transform: translateX(-50%) translateY(-100px);
+}
+
+#photo-slider #for_slider_photos button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 50%;
+  font-size: 50px;
+  line-height: 50px;
+  color: rgba(250, 250, 250, 0.851);
+  border: solid 1px rgba(250, 250, 250, 0.851);
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+  cursor: pointer;
+}
+
+#photo-slider #for_slider_photos button:hover {
+  color: white;
+}
+
+#photo-slider #for_slider_photos button:focus {
+  outline: none;
+}
+
+#photo-slider .slider_photos {
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=variable.css.map */
