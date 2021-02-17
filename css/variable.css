@@ -710,7 +710,7 @@ nav div p {
   border-top: 2px solid rgba(110, 119, 74, 0.5);
 }
 
-#question .wrapper #question_block .question_block#question_4 {
+#question .wrapper #question_block .question_block #answer_question_4 {
   border-bottom: 2px solid rgba(110, 119, 74, 0.5);
 }
 
@@ -718,15 +718,38 @@ nav div p {
   font-size: 18px;
   color: #6e774a;
   padding: 25px 0;
-  padding-left: 30px;
   letter-spacing: 4px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#question .wrapper #question_block .question_block .question_click .plus {
+  display: inline-block;
+  width: 30px;
+  height: 60px;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Font Awesome 5 Free";
 }
 
 #question .wrapper #question_block .question_block .answer_block {
   font-size: 18px;
+  letter-spacing: 1.5px;
   color: black;
   padding: 25px 0;
+  padding-top: 0;
   padding-left: 30px;
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
 }
 
 /*@import "photo-slider";

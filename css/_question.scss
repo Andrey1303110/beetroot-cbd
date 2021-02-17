@@ -15,21 +15,35 @@
             .question_block {
                 text-align: left;
                 border-top: 2px solid rgba(110, 119, 74, .5);
-                &#question_4 {
+                #answer_question_4 {
                     border-bottom: 2px solid rgba(110, 119, 74, .5); 
                 }
                 .question_click {
                     font-size: 18px;
                     color: rgb(110, 119, 74);
                     padding: 25px 0;
-                    padding-left: 30px;
                     letter-spacing: 4px;
+                    line-height: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .plus {
+                        display: inline-block;
+                        width: 30px;
+                        height: 60px;
+                        font-size: 40px;
+                        text-align: center;
+                        font-family: "Font Awesome 5 Free";
+                    }
                 }
                 .answer_block {
                     font-size: 18px;
+                    letter-spacing: 1.5px;
                     color: rgb(0, 0, 0);
                     padding: 25px 0;
+                    padding-top: 0;
                     padding-left: 30px;
+                    transition: 1s all ease-in-out;
                 }
             }
         }
