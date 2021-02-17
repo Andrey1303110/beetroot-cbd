@@ -52,6 +52,7 @@ $(document).ready(function(){
         $(`#answer_${this.id}`).css("font-size", "18px").css("padding", "0 0 25px 30px");
         for (let i=0; i < 3; i++) {
             $(".plus")[i].innerText = "+";
+            $(".plus").css("line-height", "60px");
         }
         $(".plus").innerText = "+";
         $(".plus", this)[0].innerText = "-";
