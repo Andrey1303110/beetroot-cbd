@@ -517,6 +517,13 @@ nav div p {
   width: 50%;
   font-size: 50px;
   line-height: 50px;
+  color: rgba(110, 119, 74, 0.651);
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+  cursor: pointer;
+}
+
+#products #for_slider button:hover {
   color: #6e774a;
 }
 
@@ -678,12 +685,19 @@ nav div p {
 #products .product-slider .slide .footer_slide button {
   font-size: 20px;
   font-family: "Oswald";
-  color: white;
+  color: whitesmoke;
   text-transform: uppercase;
-  background-color: #6E744A;
+  background-color: #6e744aa2;
   width: 35%;
   height: 70px;
   cursor: pointer;
+  -webkit-transition: .5s all ease-in-out;
+  transition: .5s all ease-in-out;
+}
+
+#products .product-slider .slide .footer_slide button:hover {
+  background-color: #6E744A;
+  color: white;
 }
 
 #products .product-slider .slide .footer_slide button l {
@@ -703,6 +717,7 @@ nav div p {
   line-height: 2.5;
   text-align: center;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 #question .wrapper #question_block .question_block {
@@ -730,6 +745,7 @@ nav div p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 #question .wrapper #question_block .question_block .question_click .plus {

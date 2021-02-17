@@ -50,17 +50,20 @@ $(document).ready(function(){
     $(".question_click").click(function(){
         $(".answer_block").css("font-size", "0").css("padding", "0");
         $(`#answer_${this.id}`).css("font-size", "18px").css("padding", "0 0 25px 30px");
-        for (let i=0; i < 3; i++) {
+        for (let i=0; i < 4; i++) {
             $(".plus")[i].innerText = "+";
-            $(".plus").css("line-height", "60px");
+            $(".plus").css("line-height", "55px");
         }
-        $(".plus").innerText = "+";
         $(".plus", this)[0].innerText = "-";
-        console.log($(".plus").lengts)
         $(".plus", this).css("line-height", "50px");
     });
+
     $(".title_block").click(function(){
         $(".answer_block").css("font-size", "0").css("padding", "0");
+        for (let i=0; i < 4; i++) {
+            $(".plus")[i].innerText = "+";
+            $(".plus").css("line-height", "55px");
+        }
     });
 });
 

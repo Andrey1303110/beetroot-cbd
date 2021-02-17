@@ -12,7 +12,12 @@
             width: 50%;
             font-size: 50px;
             line-height: 50px;
-            color: rgb(110, 119, 74);
+            color: rgba(110, 119, 74, 0.651);
+            transition: .4s all ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: rgb(110, 119, 74);
+            }
             &:focus {
                 outline: none;
             }
@@ -130,12 +135,17 @@
                 button {
                     font-size: 20px;
                     font-family: "Oswald";
-                    color: rgb(255, 255, 255);
+                    color: rgb(245, 245, 245);
                     text-transform: uppercase;
-                    background-color: #6E744A;
+                    background-color: #6e744aa2;
                     width: 35%;
                     height: 70px;
                     cursor: pointer;
+                    transition: .5s all ease-in-out;
+                    &:hover {
+                        background-color: #6E744A;
+                        color: rgb(255, 255, 255);
+                    }
                     l {
                         letter-spacing: -4px;
                         margin-left: 30px;
