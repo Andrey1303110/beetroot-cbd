@@ -933,6 +933,11 @@ nav div p {
   transition: 1s all ease-in-out;
 }
 
+#photo-slider .slider_photos .photo_slide .inside_image .text_author l {
+  letter-spacing: -6px;
+  margin-right: 5%;
+}
+
 #photo-slider .slider_photos .photo_slide img {
   -webkit-transition: 1s all ease-in-out;
   transition: 1s all ease-in-out;
