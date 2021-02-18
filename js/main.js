@@ -28,19 +28,20 @@ $(".head_slide").click(function(){
     }, 7500 )
 });
 
-$(".product-slider").slick({
-    arrows: true,
-    infinity: true,
-    speed: 2000,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 4500,
-    pauseOnHover: true,
-
-    appendArrows: $('#for_slider'),
-            prevArrow: '<button id="for_slider_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
-            nextArrow: '<button id="for_slider_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+$(document).ready(function(){
+    $(".product-slider").slick({
+        arrows: true,
+        infinity: true,
+        speed: 3500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 4500,
+        pauseOnHover: true,
+        appendArrows: $('#for_slider'),
+                prevArrow: '<button id="for_slider_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
+                nextArrow: '<button id="for_slider_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+    });
 });
 
 
@@ -67,16 +68,17 @@ $(document).ready(function(){
     });
 });
 
-$(".slider_photos").slick({
-    arrows: true,
-    infinity: true,
-    speed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-
-    appendArrows: $('#for_slider_photos'),
-            prevArrow: '<button id="for_slider_photo_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
-            nextArrow: '<button id="for_slider_photo_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+$(document).ready(function(){
+    $(".slider_photos").slick({
+        arrows: true,
+        infinity: true,
+        speed: 3500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        appendArrows: $('#for_slider_photos'),
+                prevArrow: '<button id="for_slider_photo_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
+                nextArrow: '<button id="for_slider_photo_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+    });
 });
 
 

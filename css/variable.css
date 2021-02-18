@@ -803,8 +803,8 @@ nav div p {
   width: 50%;
   font-size: 50px;
   line-height: 50px;
-  color: rgba(250, 250, 250, 0.851);
-  border: solid 1px rgba(250, 250, 250, 0.851);
+  color: rgba(245, 245, 245, 0.8);
+  border: solid 1px rgba(245, 245, 245, 0.8);
   -webkit-transition: .4s all ease-in-out;
   transition: .4s all ease-in-out;
   cursor: pointer;
@@ -812,6 +812,12 @@ nav div p {
 
 #photo-slider #for_slider_photos button:hover {
   color: white;
+}
+
+#photo-slider #for_slider_photos button:active {
+  -webkit-transition: .07s all ease-in-out;
+  transition: .07s all ease-in-out;
+  background-color: rgba(250, 250, 250, 0.5);
 }
 
 #photo-slider #for_slider_photos button:focus {
