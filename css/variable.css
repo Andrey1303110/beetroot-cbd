@@ -792,9 +792,9 @@ nav div p {
   position: absolute;
   z-index: 2;
   left: 50%;
-  top: 800px;
-  -webkit-transform: translateX(-50%) translateY(-100px);
-          transform: translateX(-50%) translateY(-100px);
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #photo-slider #for_slider_photos button {
