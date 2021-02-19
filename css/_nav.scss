@@ -72,7 +72,15 @@ nav {
             position: absolute;
             right: 50%;
             transform: translateX(50%);
-          }
+        }
+    }     
+}
+
+@media screen and (max-device-width: 1440px) {
+    nav div ul {
+        width: 35%;
     }
-      
+    nav div ul:nth-child(3) {
+        width: 35%;
+    }
 }

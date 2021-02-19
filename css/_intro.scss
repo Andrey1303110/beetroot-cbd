@@ -125,3 +125,33 @@
         }
     }
 }
+
+@media screen and (max-device-width: 1679px) {
+    #intro {
+        padding-right: 325px;
+    }
+}
+
+@media screen and (max-device-width: 1439px) {
+    #intro {
+        padding-right: 225px;
+    }
+}
+
+@media screen and (max-device-width: 1151px) {
+    #intro {
+        padding-right: 125px;
+    }
+}
+
+@media screen and (max-device-width: 853px) {
+    #intro {
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+    #intro {
+        padding-right: 50px;
+    }
+}

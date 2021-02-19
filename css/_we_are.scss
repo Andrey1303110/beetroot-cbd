@@ -25,7 +25,7 @@
             }
         }
         .down_div {
-            padding: 0 10%;
+            padding: 0 3%;
             min-height: 800px;
             #benefits_text {
                 flex-direction: row-reverse;
@@ -76,6 +76,7 @@
                 .down_left_div {
                     display: flex;
                     flex-direction: column;
+                    justify-content: space-around;
                     .down_div_title {
                         font-size: 24px;
                         font-family: "Oswald";
@@ -92,19 +93,99 @@
                         font-family: "Oswald";
                         color: rgb(110, 119, 74);
                         text-align: left;
-                        margin-top: 15%;
+                        margin: 5% 0;
                         line-height: 2;
                     }
                 }
                 .down_right_div {
                     display: flex;
                     flex-direction: column;
+                    justify-content: space-evenly;
                     position: relative;
                     transform: translateX(20%);
                     :nth-child(2) {
                         margin-top: 30px;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-device-width: 1679px) {
+    #we_are {
+        .wrapper {
+            padding: 0 325px;
+            .down_right_div {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-device-width: 1439px) {
+        #we_are {
+        .wrapper {
+            padding: 0 225px;
+            .down_right_div {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-device-width: 1151px) {
+    #we_are .wrapper {
+        padding: 0 100px;
+        .down_div .title_div .text_title {
+            text-align: center;
+        }
+        .down_div .down_div_text_block .down_left_div .down_div_text {
+            font-size: 16px;
+        }
+        .down_div .down_div_text_block .down_right_div img {
+            height: 40%;
+            min-height: 270px;
+        }
+    }
+}
+
+@media screen and (max-device-width: 853px) {
+    #we_are .wrapper {
+        padding: 0 20px;
+        .up_div {
+            width: 100%;
+            height: auto;
+            p {
+                font-size: 24px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .down_div .title_div .text_title {
+            text-align: center;
+            font-size: 22px;
+        }
+        .down_div .down_div_text_block .down_left_div {
+            margin: 0 -6%;
+            .down_div_text {
+                font-size: 14px;
+            }
+        }
+        .down_div .down_div_text_block .down_right_div img {
+            height: 25%;
+            min-height: 195px;
+        }
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+        #we_are {
+        .wrapper {
+            padding: 0 325px;
+            .down_right_div {
+                width: 70%;
             }
         }
     }
