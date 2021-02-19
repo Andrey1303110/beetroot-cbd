@@ -2,7 +2,7 @@ nav {
     width: 100%;
     background-image: url(../images/Shadow.png);
     background-size: contain;
-    height: 150px;
+    height: 100px;
     position: fixed;
     z-index: 10;
     div {
@@ -36,14 +36,32 @@ nav {
             width: 25%;
             height: 100%;
             justify-content: space-between;
-            font-size: 16px;
+            font-size: 20px;
             font-family: "Oswald";
-            color: rgb(255, 255, 255);
+            color: rgb(248, 248, 248);
             text-transform: uppercase;
             text-align: center;
             list-style-type: none;
             li {
                 line-height: 75px;
+                cursor: pointer;
+                transition: .5s all ease-in-out;
+                a {
+                    font-family: "Oswald";
+                    color: rgb(248, 248, 248);
+                    text-decoration: none;
+                }
+            }
+            .navs {
+                filter: drop-shadow(11px 8px 2px rgba(0, 0, 0, 0));
+                &:hover {
+                    filter: drop-shadow(11px 8px 2px rgba(0, 0, 0, 0.65));
+                    color: rgb(255, 255, 255);
+                }
+                &:active {
+                    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.75));
+                    transition: .25s all ease-in-out;
+                }
             }
         }
         p {

@@ -4,7 +4,7 @@ footer {
     text-align: center;
     color: #6E774A;
     position: relative;
-    .up_footer {
+    #up_footer {
         position: absolute;
         left: 50%;
         top: 80px;
@@ -42,7 +42,7 @@ footer {
             }
         }
     }
-    .down_footer {
+    #down_footer {
         position: relative;
         top: 200px;
         display: flex;

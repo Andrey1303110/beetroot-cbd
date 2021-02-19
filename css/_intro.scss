@@ -21,19 +21,20 @@
             opacity: 0;
             transform: scale(.7);
             width: 40px;
+            height: 300px;
             margin: 0 auto;
             position: relative;
             top: 50%;
-            animation: arrow 3s ease-in-out infinite;
+            animation: arrow 5s ease-in-out infinite;
             animation-play-state: paused;
             cursor: pointer;
             transition: .4s ease-in-out;
             @keyframes arrow {
                 0% { top: 50%; }
-                15% { top: 50%; }
-                50% { top: 70%; }
-                60% { top: 60%; }
-                80% { top: 70%; }  
+                60% { top: 50%; }
+                75% { top: 70%; }
+                80% { top: 60%; }
+                90% { top: 70%; }  
                 100% { top: 50%; }
             }
         }
@@ -45,13 +46,13 @@
         color: rgb(247, 248, 243);
         transform: rotate(-90deg) translate(50%);
         bottom: 10%;
-        animation: text 20s ease-in-out infinite;
+        animation: text 10s ease-in-out infinite;
         @keyframes text {
             0% { bottom: 10%; }
-            95% { bottom: 10%; }
+            90% { bottom: 10%; }
+            92% { bottom: 0%; }
+            94% { bottom: 5%; }  
             96% { bottom: 0%; }
-            97% { bottom: 5%; }  
-            98% { bottom: 0%; }
             100% { bottom: 10%; }
         }
     }
@@ -72,7 +73,6 @@
             width: 200px;
             border: 2px solid rgba(247, 248, 243, 0.4);
             background-color: rgba(247, 248, 243, 0);
-            color: rgba(247, 248, 243, 0.8);
             text-transform: uppercase;
             text-align: left;
             cursor: pointer;
@@ -80,6 +80,10 @@
             l {
                 position: relative;
                 left: 10%;
+            }
+            a {
+                color: rgba(247, 248, 243, 0.8);
+                text-decoration: none;
             }
             &:hover {
                 color: rgb(255, 255, 255);
