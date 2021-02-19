@@ -1033,10 +1033,6 @@ footer .down_footer p:hover {
   font-size: 20px;
 }
 
-footer .down_footer p:hover ~ p, footer .down_footer p:hover::before {
-  opacity: .5;
-}
-
 footer .down_footer p:nth-child(1) {
   margin-top: 100px;
 }

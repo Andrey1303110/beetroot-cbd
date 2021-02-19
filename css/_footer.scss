@@ -60,9 +60,6 @@ footer {
             &:hover {
                 font-size: 20px;
             }
-            &:hover ~ p, &:hover::before {
-                opacity: .5;
-            }
             &:nth-child(1) {
                 margin-top: 100px;
             }
