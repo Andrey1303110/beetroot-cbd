@@ -164,3 +164,96 @@
         }
     }
 }
+
+
+@media screen and (max-device-width: 1439px) {
+    #products .product-slider .slide .footer_slide button l {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-device-width: 1151px) {
+    #products {
+        height: 100vh;
+        max-height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-device-width: 853px) {
+    #products {
+        height: 100vh;
+        max-height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-slider .slide {
+            #flavor {
+                background-size: 35%;
+            }
+            #muscle {
+                background-size: 55%;
+            }
+            #coffe {
+                background-size: 40%;
+            }
+            #oil {
+                background-size: 55%;
+            }
+            #tea {
+                background-size: 120%;
+            }
+        }
+        #for_slider {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: row;
+            height: 100px;
+            width: 350px;
+            button {
+                font-size: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+    #products {
+        height: 100vh;
+        max-height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-slider .slide {
+            #flavor {
+                background-size: 35%;
+            }
+            #muscle {
+                background-size: 55%;
+            }
+            #coffe {
+                background-size: 40%;
+            }
+            #oil {
+                background-size: 55%;
+            }
+            #tea {
+                background-size: 120%;
+            }
+        }
+        #for_slider {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: row;
+            height: 100px;
+            width: 350px;
+            button {
+                font-size: 100px;
+            }
+        }
+    }
+}

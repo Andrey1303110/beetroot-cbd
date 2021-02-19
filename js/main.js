@@ -40,7 +40,25 @@ $(document).ready(function(){
         pauseOnHover: true,
         appendArrows: $('#for_slider'),
                 prevArrow: '<button id="for_slider_left" type="button"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></button>',
-                nextArrow: '<button id="for_slider_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
+                nextArrow: '<button id="for_slider_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>',
+        responsive: [
+            {
+                breakpoint: 1152,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    speed: 2500,
+                }
+            },
+            {
+                breakpoint: 854,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    speed: 1000,
+                }
+            },  
+        ]
     });
 });
 
@@ -80,4 +98,3 @@ $(document).ready(function(){
                 nextArrow: '<button id="for_slider_photo_right" type="button"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>'
     });
 });
-
