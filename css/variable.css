@@ -1060,6 +1060,25 @@ nav div p {
   transition: 1s all ease-in-out;
 }
 
+@media screen and (max-device-width: 853px) {
+  #question .wrapper {
+    width: 80%;
+    min-width: 450px;
+  }
+  #question .wrapper #question_block {
+    height: 750px;
+  }
+  #question .wrapper #question_block .question_block {
+    padding: 0 5px;
+  }
+  #question .wrapper #question_block .question_block .question_click {
+    letter-spacing: 3px;
+  }
+  #question .wrapper .title_block {
+    margin-top: 20%;
+  }
+}
+
 #photo-slider {
   width: 100vw;
   height: 100vh;

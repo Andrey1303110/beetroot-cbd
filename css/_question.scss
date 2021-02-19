@@ -52,3 +52,36 @@
         }
     }
 }
+
+@media screen and (max-device-width: 1439px) {
+    #question {
+
+    }
+}
+
+@media screen and (max-device-width: 1151px) {
+
+}
+
+@media screen and (max-device-width: 853px) {
+    #question .wrapper {
+        width: 80%;
+        min-width: 450px;
+        #question_block {
+            height: 750px;
+            .question_block {
+                padding: 0 5px;
+            }
+            .question_block .question_click {
+                letter-spacing: 3px;
+            }
+        }
+        .title_block {
+            margin-top: 20%;
+        }
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+
+}
