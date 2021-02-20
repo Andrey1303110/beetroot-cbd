@@ -167,6 +167,7 @@ nav div p {
   background-repeat: round;
   background-size: cover;
   padding-right: 375px;
+  position: relative;
 }
 
 #intro #for_arrow {
@@ -374,8 +375,13 @@ nav div p {
 }
 
 #intro .wrapper p:nth-child(5) {
+  text-decoration: none;
+  color: rgba(247, 248, 243, 0.4);
   margin-top: 20px;
   font-size: 18px;
+}
+
+#intro .wrapper p:nth-child(5) P {
   color: rgba(247, 248, 243, 0.4);
   letter-spacing: 2px;
   cursor: pointer;
@@ -383,7 +389,7 @@ nav div p {
   transition: .3s ease-in-out;
 }
 
-#intro .wrapper p:nth-child(5):hover {
+#intro .wrapper p:nth-child(5) P:hover {
   color: white;
 }
 
@@ -410,6 +416,32 @@ nav div p {
   #intro {
     padding-right: 80px;
     max-height: 500px;
+    padding-right: 40px;
+  }
+  #intro #for_arrow {
+    display: none;
+  }
+  #intro #rotate-text {
+    font-size: 16px;
+  }
+  #intro .wrapper {
+    top: 50%;
+  }
+  #intro .wrapper p:nth-child(1), #intro .wrapper p:nth-child(2) {
+    font-size: 30px;
+  }
+  #intro .wrapper p:nth-child(3) {
+    font-size: 18px;
+  }
+  #intro .wrapper p:nth-child(5) {
+    font-size: 16px;
+  }
+  #intro .wrapper button {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 50px;
+    line-height: 40px;
+    width: 185px;
   }
 }
 
