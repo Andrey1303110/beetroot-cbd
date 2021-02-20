@@ -79,8 +79,18 @@ nav {
 @media screen and (max-device-width: 1440px) {
     nav div ul {
         width: 35%;
+        li a {
+            font-size: 16px;
+        }
     }
     nav div ul:nth-child(3) {
         width: 35%;
+    }
+}
+
+
+@media screen and (max-device-width: 853px) {
+    nav {
+        display: none;
     }
 }

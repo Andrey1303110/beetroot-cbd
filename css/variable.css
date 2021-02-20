@@ -144,8 +144,17 @@ nav div p {
   nav div ul {
     width: 35%;
   }
+  nav div ul li a {
+    font-size: 16px;
+  }
   nav div ul:nth-child(3) {
     width: 35%;
+  }
+}
+
+@media screen and (max-device-width: 853px) {
+  nav {
+    display: none;
   }
 }
 
@@ -393,12 +402,14 @@ nav div p {
 @media screen and (max-device-width: 1151px) {
   #intro {
     padding-right: 125px;
+    max-height: 850px;
   }
 }
 
 @media screen and (max-device-width: 853px) {
   #intro {
     padding-right: 80px;
+    max-height: 500px;
   }
 }
 
