@@ -11,6 +11,7 @@
             padding: 30px 55px;
             background-image: url(../images/border-logos.png);
             background-repeat: round;
+            background-position-x: center;
             margin: 0 auto;
             p {
                 text-transform: uppercase;
@@ -177,7 +178,6 @@
     #we_are .wrapper {
         padding: 0 20px;
         .up_div {
-            width: 100%;
             height: auto;
             p {
                 font-size: 24px;
@@ -191,7 +191,7 @@
             font-size: 22px;
         }
         .down_div .down_div_text_block .down_left_div {
-            margin: 0 -6%;
+            margin: 0 -3%;
             .down_div_text {
                 font-size: 14px;
             }

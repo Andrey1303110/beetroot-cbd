@@ -190,20 +190,8 @@
         flex-direction: column;
         justify-content: space-between;
         .product-slider .slide {
-            #flavor {
-                background-size: 35%;
-            }
-            #muscle {
-                background-size: 55%;
-            }
-            #coffe {
-                background-size: 40%;
-            }
-            #oil {
-                background-size: 55%;
-            }
-            #tea {
-                background-size: 120%;
+            #flavor, #muscle, #coffe, #oil, #tea {
+                background-size: 125px;
             }
         }
         #for_slider {
@@ -229,19 +217,19 @@
         justify-content: space-between;
         .product-slider .slide {
             #flavor {
-                background-size: 35%;
+                background-size: 18%;
             }
             #muscle {
-                background-size: 55%;
+                background-size: 30%;
             }
             #coffe {
-                background-size: 40%;
+                background-size: 25%;
             }
             #oil {
-                background-size: 55%;
+                background-size: 30%;
             }
             #tea {
-                background-size: 120%;
+                background-size: 65%;
             }
         }
         #for_slider {

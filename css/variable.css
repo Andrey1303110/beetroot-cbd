@@ -468,6 +468,7 @@ nav div p {
   padding: 30px 55px;
   background-image: url(../images/border-logos.png);
   background-repeat: round;
+  background-position-x: center;
   margin: 0 auto;
 }
 
@@ -678,7 +679,6 @@ nav div p {
     padding: 0 20px;
   }
   #we_are .wrapper .up_div {
-    width: 100%;
     height: auto;
   }
   #we_are .wrapper .up_div p {
@@ -692,7 +692,7 @@ nav div p {
     font-size: 22px;
   }
   #we_are .wrapper .down_div .down_div_text_block .down_left_div {
-    margin: 0 -6%;
+    margin: 0 -3%;
   }
   #we_are .wrapper .down_div .down_div_text_block .down_left_div .down_div_text {
     font-size: 14px;
@@ -971,20 +971,8 @@ nav div p {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  #products .product-slider .slide #flavor {
-    background-size: 35%;
-  }
-  #products .product-slider .slide #muscle {
-    background-size: 55%;
-  }
-  #products .product-slider .slide #coffe {
-    background-size: 40%;
-  }
-  #products .product-slider .slide #oil {
-    background-size: 55%;
-  }
-  #products .product-slider .slide #tea {
-    background-size: 120%;
+  #products .product-slider .slide #flavor, #products .product-slider .slide #muscle, #products .product-slider .slide #coffe, #products .product-slider .slide #oil, #products .product-slider .slide #tea {
+    background-size: 125px;
   }
   #products #for_slider {
     display: -webkit-box;
@@ -1022,19 +1010,19 @@ nav div p {
             justify-content: space-between;
   }
   #products .product-slider .slide #flavor {
-    background-size: 35%;
+    background-size: 18%;
   }
   #products .product-slider .slide #muscle {
-    background-size: 55%;
+    background-size: 30%;
   }
   #products .product-slider .slide #coffe {
-    background-size: 40%;
+    background-size: 25%;
   }
   #products .product-slider .slide #oil {
-    background-size: 55%;
+    background-size: 30%;
   }
   #products .product-slider .slide #tea {
-    background-size: 120%;
+    background-size: 65%;
   }
   #products #for_slider {
     display: -webkit-box;
