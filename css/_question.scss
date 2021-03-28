@@ -14,12 +14,12 @@
         }
         #question_block {
             height: 650px;
+                :nth-child(4) {
+                    border-bottom: 2px solid rgba(110, 119, 74, 0.5);
+                }
             .question_block {
                 text-align: left;
                 border-top: 2px solid rgba(110, 119, 74, .5);
-                #answer_question_4 {
-                    border-bottom: 2px solid rgba(110, 119, 74, .5);
-                }
                 .question_click {
                     font-size: 18px;
                     color: rgb(110, 119, 74);

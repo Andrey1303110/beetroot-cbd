@@ -187,6 +187,32 @@
 
 @media screen and (max-device-width: 479px) {
     #intro {
-        padding-right: 50px;
+        padding-right: 20px;
+        max-height: 500px;
+        #for_arrow {
+            display: none;
+        }
+        #rotate-text {
+            font-size: 12px;
+        }
+        .wrapper {
+            top: 50%;
+            p:nth-child(1), p:nth-child(2) {
+                font-size: 24px;
+            }
+            p:nth-child(3) {
+                font-size: 14px;
+            }
+            p:nth-child(5) {
+                font-size: 13px;
+            }
+            button {
+                margin-top: 20px;
+                font-size: 14px;
+                height: 50px;
+                line-height: 40px;
+                width: 185px;
+            }
+        }
     }
 }

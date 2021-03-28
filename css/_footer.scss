@@ -186,16 +186,40 @@ footer {
     footer {
         #up_footer {
             top: 95px;
-            width: 80%
+            width: 80%;
+            .footer_title {
+                font-size: 50px;
+                margin-bottom: 80px;
+            }
+            .footer_icons {
+                transform: translateY(-50%);
+                justify-content: space-between;
+                img {
+                    height: 40px;
+                    width: 50px;
+                    :nth-child(1) {
+                        height: 50px;
+                    }
+                }
+            }
         }
         #down_footer .right, #down_footer .left {
-            width: 30%;
+            width: 50%;
             min-width: 120px;
             max-width: 200px;
         }
-        .subscribe form {
-            width: 80%;
-            max-width: 420px;
+        .subscribe {
+            img {
+                position: relative;
+                //transform: translateY(-30%);
+            }
+            form {
+                width: 80%;
+                max-width: 420px;
+                input:nth-child(1) {
+                    padding: 5px;
+                }
+            }
         }
     }
 }
