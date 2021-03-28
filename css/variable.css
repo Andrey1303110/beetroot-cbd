@@ -448,7 +448,13 @@ nav div p {
 @media screen and (max-device-width: 479px) {
   #intro {
     padding-right: 20px;
-    max-height: 500px;
+    height: 100vh;
+    width: 100vw;
+    max-height: 1080px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center;
   }
   #intro #for_arrow {
     display: none;
@@ -460,17 +466,17 @@ nav div p {
     top: 50%;
   }
   #intro .wrapper p:nth-child(1), #intro .wrapper p:nth-child(2) {
-    font-size: 24px;
+    font-size: 28px;
   }
   #intro .wrapper p:nth-child(3) {
-    font-size: 14px;
+    font-size: 16px;
   }
   #intro .wrapper p:nth-child(5) {
-    font-size: 13px;
+    font-size: 15px;
   }
   #intro .wrapper button {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     height: 50px;
     line-height: 40px;
     width: 185px;

@@ -188,7 +188,13 @@
 @media screen and (max-device-width: 479px) {
     #intro {
         padding-right: 20px;
-        max-height: 500px;
+        height: 100vh;
+        width: 100vw;
+        max-height: 1080px;
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-size: 1600px;
+        background-position: center;
         #for_arrow {
             display: none;
         }
@@ -198,17 +204,17 @@
         .wrapper {
             top: 50%;
             p:nth-child(1), p:nth-child(2) {
-                font-size: 24px;
+                font-size: 28px;
             }
             p:nth-child(3) {
-                font-size: 14px;
+                font-size: 16px;
             }
             p:nth-child(5) {
-                font-size: 13px;
+                font-size: 15px;
             }
             button {
                 margin-top: 20px;
-                font-size: 14px;
+                font-size: 16px;
                 height: 50px;
                 line-height: 40px;
                 width: 185px;
