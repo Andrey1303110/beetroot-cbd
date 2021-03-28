@@ -209,9 +209,44 @@
 @media screen and (max-device-width: 479px) {
         #we_are {
         .wrapper {
-            padding: 0 325px;
-            .down_right_div {
-                width: 70%;
+            padding: 0 20px;
+            .up_div {
+                max-width: 420px;
+                min-width: 280px;
+                width: 100%;
+                padding: 10px 10px;
+                background: url(../images/border-logos.png) no-repeat;
+                margin: 0 auto;
+                background-repeat: round;
+                p {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+            .down_div {
+                .title_div {
+                    .text_title {
+                        font-size: 20px;
+                        line-height: 1.5;
+                    }
+                }
+                #benefits_text.isActive {
+                    display: flex;
+                    flex-direction: column;
+                    .down_right_div {
+                        transform: none;
+                        width: 100%;
+                    }
+                }
+                .down_div_text_block {
+                    .down_right_div {
+                        transform: none;
+                        width: 100%;
+                    }
+                }
+                .down_div_text_block.isActive {
+                    flex-direction: column;
+                }
             }
         }
     }

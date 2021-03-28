@@ -183,6 +183,20 @@ footer {
 }
 
 @media screen and (max-device-width: 479px) {
-
+    footer {
+        #up_footer {
+            top: 95px;
+            width: 80%
+        }
+        #down_footer .right, #down_footer .left {
+            width: 30%;
+            min-width: 120px;
+            max-width: 200px;
+        }
+        .subscribe form {
+            width: 80%;
+            max-width: 420px;
+        }
+    }
 }
 

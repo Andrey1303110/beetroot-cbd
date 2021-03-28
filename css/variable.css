@@ -709,10 +709,49 @@ nav div p {
 
 @media screen and (max-device-width: 479px) {
   #we_are .wrapper {
-    padding: 0 325px;
+    padding: 0 20px;
   }
-  #we_are .wrapper .down_right_div {
-    width: 70%;
+  #we_are .wrapper .up_div {
+    max-width: 420px;
+    min-width: 280px;
+    width: 100%;
+    padding: 10px 10px;
+    background: url(../images/border-logos.png) no-repeat;
+    margin: 0 auto;
+    background-repeat: round;
+  }
+  #we_are .wrapper .up_div p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #we_are .wrapper .down_div .title_div .text_title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  #we_are .wrapper .down_div #benefits_text.isActive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #we_are .wrapper .down_div #benefits_text.isActive .down_right_div {
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+  }
+  #we_are .wrapper .down_div .down_div_text_block .down_right_div {
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+  }
+  #we_are .wrapper .down_div .down_div_text_block.isActive {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -997,7 +1036,7 @@ nav div p {
 @media screen and (max-device-width: 479px) {
   #products {
     height: 100vh;
-    max-height: 950px;
+    max-height: 850px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1009,35 +1048,33 @@ nav div p {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  #products .product-slider .slide {
+    height: 525px;
+  }
+  #products .product-slider .slide .head_slide .slide_product_title {
+    font-size: 20px;
+  }
+  #products .product-slider .slide .footer_slide .price {
+    font-size: 20px;
+  }
   #products .product-slider .slide #flavor {
-    background-size: 18%;
+    background-size: 130px;
   }
   #products .product-slider .slide #muscle {
-    background-size: 30%;
+    background-size: 180px;
   }
   #products .product-slider .slide #coffe {
-    background-size: 25%;
+    background-size: 150px;
   }
   #products .product-slider .slide #oil {
-    background-size: 30%;
+    background-size: 200px;
   }
   #products .product-slider .slide #tea {
-    background-size: 65%;
+    background-size: 450px;
   }
   #products #for_slider {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: 100px;
-    width: 350px;
+    min-width: 320px;
+    width: 100%;
   }
   #products #for_slider button {
     font-size: 100px;
@@ -1131,6 +1168,33 @@ nav div p {
   }
   #question .wrapper .title_block {
     margin-top: 20%;
+  }
+}
+
+@media screen and (max-device-width: 479px) {
+  #question {
+    margin-bottom: 30%;
+  }
+  #question .wrapper {
+    width: 80%;
+    min-width: 320px;
+  }
+  #question .wrapper #question_block {
+    max-height: 800px;
+    height: auto;
+  }
+  #question .wrapper #question_block .plus {
+    margin-right: 20px;
+  }
+  #question .wrapper #question_block .question_block {
+    padding: 0 15px;
+  }
+  #question .wrapper #question_block .question_block .question_click {
+    letter-spacing: 2px;
+  }
+  #question .wrapper .title_block {
+    margin-top: 20%;
+    line-height: 2;
   }
 }
 
@@ -1363,11 +1427,17 @@ nav div p {
 }
 
 @media screen and (max-device-width: 479px) {
+  #photo-slider .slider_photos .photo_slide .inside_image {
+    width: 80vw;
+    min-width: 300px;
+    max-width: 450px;
+    padding: 0 0px;
+  }
   #photo-slider .slider_photos .photo_slide .inside_image .text_slide, #photo-slider .slider_photos .photo_slide .inside_image .text_author {
-    font-size: 20px;
+    font-size: 16px;
   }
   #photo-slider .slider_photos .photo_slide .rotate_rext {
-    font-size: 24px;
+    font-size: 0px;
   }
 }
 
@@ -1620,6 +1690,22 @@ footer .down_title {
   footer #up_footer {
     top: 95px;
     width: 40%;
+  }
+  footer #down_footer .right, footer #down_footer .left {
+    width: 30%;
+    min-width: 120px;
+    max-width: 200px;
+  }
+  footer .subscribe form {
+    width: 80%;
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-device-width: 479px) {
+  footer #up_footer {
+    top: 95px;
+    width: 80%;
   }
   footer #down_footer .right, footer #down_footer .left {
     width: 30%;

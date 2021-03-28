@@ -81,5 +81,29 @@
 }
 
 @media screen and (max-device-width: 479px) {
+    #question {
+        margin-bottom: 30%;
+        .wrapper {
+            width: 80%;
+            min-width: 320px;
+            #question_block {
+                max-height: 800px;
+                height: auto;
+                .plus {
+                    margin-right: 20px;
+                }
+                .question_block {
+                    padding: 0 15px;
+                }
+                .question_block .question_click {
+                    letter-spacing: 2px;
+                }
+            }
+            .title_block {
+                margin-top: 20%;
+                line-height: 2;
+            }
+        }
+    }
 
 }

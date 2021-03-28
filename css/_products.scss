@@ -211,34 +211,37 @@
 @media screen and (max-device-width: 479px) {
     #products {
         height: 100vh;
-        max-height: 950px;
+        max-height: 850px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         .product-slider .slide {
+            height: 525px;
+            .head_slide .slide_product_title {
+                font-size: 20px;
+            }
+            .footer_slide .price {
+                font-size: 20px;
+            }
             #flavor {
-                background-size: 18%;
+                background-size: 130px;
             }
             #muscle {
-                background-size: 30%;
+                background-size: 180px;
             }
             #coffe {
-                background-size: 25%;
+                background-size: 150px;
             }
             #oil {
-                background-size: 30%;
+                background-size: 200px;
             }
             #tea {
-                background-size: 65%;
+                background-size: 450px;
             }
         }
         #for_slider {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            flex-direction: row;
-            height: 100px;
-            width: 350px;
+            min-width: 320px;
+            width: 100%;
             button {
                 font-size: 100px;
             }
